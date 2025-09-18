@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shotgun2", "shotgun.csproj", "{EDBAB384-E0BF-6B8D-FC2A-96D43BB92F4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDBAB384-E0BF-6B8D-FC2A-96D43BB92F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBAB384-E0BF-6B8D-FC2A-96D43BB92F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBAB384-E0BF-6B8D-FC2A-96D43BB92F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBAB384-E0BF-6B8D-FC2A-96D43BB92F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2B5969D3-FCA5-4203-A0D3-8C5898B551AE}
+	EndGlobalSection
+EndGlobal
