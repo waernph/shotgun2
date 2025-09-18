@@ -1,17 +1,19 @@
 class Player
 {
-    private string Name = "";
-    private bool IsHuman = true;
-    public string name
+    private string name = "";
+    private bool isHuman = true;
+    public string Name
     {
         get { return name; }
         set { name = value; }
     }
-    public bool isHuman
+    public bool IsHuman
     {
         get { return isHuman; }
         set { isHuman = value; }
     }
 
     ShotsLeft shotsLeft = new ShotsLeft();
+
+
 }

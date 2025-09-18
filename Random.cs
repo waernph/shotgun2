@@ -8,8 +8,7 @@ class Random
     }
 
     
-    Random rnd = new Random();
-    public char computerChoice()
+    public char ComputerChoice()
     {
         Random random = new Random();
         ShotsLeft shotsLeft = new ShotsLeft();
