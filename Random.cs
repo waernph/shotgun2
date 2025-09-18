@@ -1,3 +1,4 @@
+
 class Random
 {
     private char RandomChoice;
@@ -7,17 +8,15 @@ class Random
         set { RandomChoice = value; }
     }
 
-    
-    public char ComputerChoice()
+    private static char ComputerChoice()
     {
-        Random random = new Random();
+        Random rnd = new Random();
         ShotsLeft shotsLeft = new ShotsLeft();
 
         string choices = "ssllbbhhhh";
-        
-        if ( shotsLeft.Shots == 0)
+
+        if (shotsLeft.Shots == 0)
         {
-            int index = random.
             int index = rnd.Next(2, 4);
             return choices[index];
         }

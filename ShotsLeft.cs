@@ -1,18 +1,22 @@
 class ShotsLeft
 {
     private int shots;
-    public int Shots
+    private int Shots
     {
         get { return shots; }
         set { shots = value; }
     }
 
-    private void shotFired()
+    public void FireShot()
     {
-        Shots -= shots;
+        Shots -= 1;
     }
-    private void loadedShot()
+    public void LoadShot()
     {
-        Shots += shots;
+        Shots += 1;
+    }
+    public int ShotCount()
+    {
+        return shots;
     }
 }
