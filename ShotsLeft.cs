@@ -11,10 +11,12 @@ class ShotsLeft
     {
         Shots -= 1;
     }
+
     public void LoadShot()
     {
         Shots += 1;
     }
+
     public int ShotCount()
     {
         return shots;

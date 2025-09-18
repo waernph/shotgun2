@@ -1,4 +1,3 @@
-
 class Random
 {
     private char RandomChoice;
@@ -8,19 +7,19 @@ class Random
         set { RandomChoice = value; }
     }
 
-    private static char ComputerChoice()
+    private char ComputerChoice()
     {
         Random rnd = new Random();
         ShotsLeft shotsLeft = new ShotsLeft();
 
         string choices = "ssllbbhhhh";
 
-        if (shotsLeft.Shots == 0)
+        if (shotsLeft.ShotCount() == 0)
         {
             int index = rnd.Next(2, 4);
             return choices[index];
         }
-        else if (shotsLeft.Shots > 0 && shotsLeft.Shots < 3)
+        else if (shotsLeft.ShotCount() > 0 && shotsLeft.ShotCount() < 3)
         {
             int index = rnd.Next(0, 5);
             return choices[index];

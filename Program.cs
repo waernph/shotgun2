@@ -1,5 +1,4 @@
-﻿
-ShotsLeft shotsLeft = new ShotsLeft();
+﻿ShotsLeft shotsLeft = new ShotsLeft();
 
 shotsLeft.ShotCount();
 shotsLeft.FireShot();
